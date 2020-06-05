@@ -1,0 +1,73 @@
+/* Folha de estilo separada para não interferir nos cards da pagina de horários */
+
+body{
+  height: 100%;
+}
+
+/* ===================cabeçalho=================== */
+
+header{
+  justify-content: space-evenly;
+}
+
+.logo{
+  width: 100px;
+ 
+}
+
+.logo-group{
+  display: flex;
+  margin: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-info{
+  height: 100px;
+}
+
+.nav{
+  align-self: flex-end;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* ==========configuração dos cards============ */
+
+.cardsFirst{
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-evenly;
+}
+
+.cardsSecond{
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  justify-content: space-evenly;
+}
+
+.card:hover{
+  transform: translateY(-7px);
+  transition: 300ms;
+}
+
+.card{
+  width: 18rem;
+  transition: 300ms;
+}
+
+.card-img-top{
+  width: 200px;
+  margin: auto;
+}
+
+/* ============Footer============ */
+
+.footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}

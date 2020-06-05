@@ -1,0 +1,110 @@
+body{
+  height: 100%;
+}
+
+/* ===================cabeçalho=================== */
+
+header{
+  justify-content: space-evenly;
+}
+
+.logo{
+  width: 100px;
+ 
+}
+
+.bg-info{
+  height: 100px;
+}
+
+.nav{
+  align-self: flex-end;
+}
+
+.logo-group{
+  display: flex;
+  margin: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ==================conteúdo principal=================== */
+
+.all-content{
+  display: flex;
+}
+
+.index-text{
+  justify-content: right;
+  max-width: 40%;
+  margin-top: 32px;
+}
+
+.content-primary{
+  height: auto;
+  margin: 32px;
+}
+
+.empresa{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: -100px;
+}
+
+.empresa img{
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+
+.carousel{
+  display: flex;
+  height: 440px;
+  justify-content: center;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* =================Página trabalhe conosco================= */
+
+.down-arrow{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 100px;
+  transition: 300ms;
+}
+
+.down-arrow:hover{
+  transform: translateY(7px);
+  transition: 300ms;
+}
+
+.img-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#workWithUS{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+/* ==================Formulário================== */
+
+#formWork{
+  margin-bottom: 200px;
+}
+
+/* ============Footer============ */
+
+.footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+
+}

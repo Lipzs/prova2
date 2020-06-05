@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/health.png" type="image/x-icon">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <header class="bg-info d-flex mb-2" id="header">
+    <div class="logo-group">
+      <a href="index.html"><img src="img/health.png" alt="logo" class="logo"></a>
+      <a href="index.html" class="header-link">
+        <h2 class="m-3 text-white">Hospital São Chico</h2>
+      </a>
+    </div>
+    <ul class="nav">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link btn btn-info m-2">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="corpo.html" class="nav-link btn btn-info m-2">Corpo Médico</a>
+      </li>
+      <li class="nav-item">
+        <a href="convenios.html" class="nav-link btn btn-info m-2">Convênios</a>
+      </li>
+      <li class="nav-item">
+        <a href="horarios.html" class="nav-link btn btn-info m-2">Horários e visitas</a>
+      </li>
+    </ul>
+  </header>
+
+  <div class="container">
+
+    <div id="nav-intern" class="my-5">
+      <h1 class="text-center">Trabalhe conosco</h1>
+      <p class="text-center" id="workWithUS">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsam
+        totam assumenda?
+        Ipsa, ut illo! Perspiciatis reiciendis itaque dolorum totam veniam. Animi et minus architecto provident, ipsum
+        laborum quidem illo?
+      </p>
+      <div class="img-nav">
+        <nav>
+          <a href="#formWork"><img src="img/down-arrow.svg" class="down-arrow"></a>
+        </nav>
+      </div>
+    </div>
+
+    <form class="border rounded p-3 shadow" id="formWork">
+
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="Nome">Nome</label>
+            <input type="email" class="form-control" id="nome" placeholder="Seu nome">
+          </div>
+          <div class="col">
+            <label for="nascimento">Data de nascimento</label>
+            <input type="text" class="form-control" id="nascimento" placeholder="DD/MM/AAAA">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" placeholder="CPF">
+            <small class="text-muted">Digite seu cpf sem caracteres especiais</small>
+          </div>
+          <div class="col">
+            <label for="cep">CEP</label>
+            <input type="text" class="form-control" id="cep" placeholder="CEP">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="row">
+          <div class="col">
+            <label for="vaga">Vagas de Interesse</label>
+            <select class="form-control">
+              <option selected>Selecione...</option>
+              <option>Cardiologia</option>
+              <option>Neurocirurgia</option>
+              <option>Medicina de Emergência</option>
+              <option>Infectologia</option>
+              <option>Endoscopia</option>
+              <option>Geriatria</option>
+              <option>Cirurgia Geral</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="salario">Salário pretendido</label>
+            <input type="text" class="form-control" id="salario" placeholder="Salário pretendido">
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+
+    </form>
+
+  </div>
+
+  <footer class="footer bg-info mt-2">
+    <div class="container">
+      <nav class="float-right">
+        <a class="text-white btn btn-info" href="#header">Voltar ao topo
+          <i class="fas fa-arrow-up"></i></a>
+      </nav>
+      <p class="ml-3 text-white">&copy; Hospital São Francisco , 2017-2018 &middot; </p>
+    </div>
+    </div>
+  </footer>
+  <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="libs/jquery/jquery.priceformat.min.js"></script>
+  <script src="js/jquery.js"></script>
+</body>
+
+</html>
